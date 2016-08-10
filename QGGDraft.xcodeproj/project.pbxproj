@@ -1,0 +1,1091 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F04A70F1C2CE7370067A19D /* QGGImagePickerCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F04A70E1C2CE7370067A19D /* QGGImagePickerCollectionView.m */; };
+		3F04A7181C2D21120067A19D /* ALAssetsGroup+GroupName_zh_CN.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F04A7171C2D21120067A19D /* ALAssetsGroup+GroupName_zh_CN.m */; };
+		3F04A71B1C2D3E6F0067A19D /* QGGTapAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F04A71A1C2D3E6F0067A19D /* QGGTapAnimationView.m */; };
+		3F04A71E1C2D40320067A19D /* QGGImagePickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F04A71D1C2D40320067A19D /* QGGImagePickerCell.m */; };
+		3F2AEB061D17C718001489D8 /* QGGTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2AEB051D17C718001489D8 /* QGGTextAttachment.m */; };
+		3F2AEB0A1D17C9E0001489D8 /* QGGRichTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2AEB081D17C9E0001489D8 /* QGGRichTextViewController.m */; };
+		3F2AEB0B1D17C9E0001489D8 /* QGGRichTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F2AEB091D17C9E0001489D8 /* QGGRichTextViewController.xib */; };
+		3F34D97B1C82BEE10044D300 /* QGGRectPlayAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F34D97A1C82BEE10044D300 /* QGGRectPlayAnimationView.m */; };
+		3F34D97E1C82C82D0044D300 /* QGGCircleLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F34D97D1C82C82D0044D300 /* QGGCircleLoadingView.m */; };
+		3F630D151C79ED08009913DE /* QGGAutumnKeyFrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F630D131C79ED08009913DE /* QGGAutumnKeyFrameViewController.m */; };
+		3F6EAB371CBB88C20040CCF2 /* TimeImitationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6EAB361CBB88C20040CCF2 /* TimeImitationView.m */; };
+		3F6EAB3A1CBB8B650040CCF2 /* QGGTimeImitationControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6EAB391CBB8B650040CCF2 /* QGGTimeImitationControllerViewController.m */; };
+		3F7267031C2FAF3F00AAA6BA /* QGGImagePicker.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7267021C2FAF3F00AAA6BA /* QGGImagePicker.xcassets */; };
+		3F7267061C31115800AAA6BA /* QGGImageDetailPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7267051C31115800AAA6BA /* QGGImageDetailPickerViewController.m */; };
+		3F7267091C31262600AAA6BA /* QGGImagePickerDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7267081C31262600AAA6BA /* QGGImagePickerDetailCell.m */; };
+		3F7694F31CB356A100661BA8 /* QGGWaterLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7694F21CB356A100661BA8 /* QGGWaterLoadingView.m */; };
+		3F86DC8E1C1686F2009950A7 /* QGGTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F86DC8D1C1686F2009950A7 /* QGGTextField.m */; };
+		3F86DC921C16A776009950A7 /* QGGMenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F86DC901C16A776009950A7 /* QGGMenuTableViewCell.m */; };
+		3F86DC931C16A776009950A7 /* QGGMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F86DC911C16A776009950A7 /* QGGMenuTableViewCell.xib */; };
+		3F86DC981C16B580009950A7 /* QGGTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F86DC961C16B580009950A7 /* QGGTestViewController.m */; };
+		3F86DC991C16B580009950A7 /* QGGTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F86DC971C16B580009950A7 /* QGGTestViewController.xib */; };
+		3F86DC9C1C16B86B009950A7 /* QGGMaxLenTextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F86DC9B1C16B86B009950A7 /* QGGMaxLenTextFieldViewController.m */; };
+		3F929BF91C2BE62A004A1414 /* QGGPhotoLibTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F929BF81C2BE62A004A1414 /* QGGPhotoLibTestViewController.m */; };
+		3F929BFF1C2BF059004A1414 /* QGGImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F929BFE1C2BF059004A1414 /* QGGImagePicker.m */; };
+		3F929C081C2C06B6004A1414 /* UIColor+hexFloatColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F929C071C2C06B6004A1414 /* UIColor+hexFloatColor.m */; };
+		3F929C0E1C2C0837004A1414 /* QGGImageGroupTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F929C0D1C2C0837004A1414 /* QGGImageGroupTableView.m */; };
+		3F929C111C2C0857004A1414 /* QGGImageGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F929C101C2C0857004A1414 /* QGGImageGroupCell.m */; };
+		3F929C141C2C0AA9004A1414 /* QGGImageGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F929C131C2C0AA9004A1414 /* QGGImageGroupViewController.m */; };
+		3F929C171C2C0C04004A1414 /* QGGImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F929C161C2C0C04004A1414 /* QGGImagePickerViewController.m */; };
+		3FB6B31A1C7C613F007AF4B0 /* QGGLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB6B3191C7C613F007AF4B0 /* QGGLoadingView.m */; };
+		3FB6B31D1C7C6584007AF4B0 /* QGGAnimationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB6B31C1C7C6584007AF4B0 /* QGGAnimationsViewController.m */; };
+		3FB971571CC9DE5C00025A62 /* QGGFirsetHideBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB971561CC9DE5C00025A62 /* QGGFirsetHideBarViewController.m */; };
+		3FB9715D1CC9EDB000025A62 /* QGGSecondHideBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9715C1CC9EDB000025A62 /* QGGSecondHideBarViewController.m */; };
+		3FB971601CC9EE7600025A62 /* QGGShowBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9715F1CC9EE7600025A62 /* QGGShowBarViewController.m */; };
+		3FDCDD861C3221F0002AE0AA /* UIImage+QGGRenderedColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDCDD851C3221F0002AE0AA /* UIImage+QGGRenderedColor.m */; };
+		3FDEE51E1C7C9B1B0051CCC3 /* QGGGradientMaskLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDEE51D1C7C9B1B0051CCC3 /* QGGGradientMaskLabel.m */; };
+		3FF345CC1C140EF900E9D3BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF345CB1C140EF900E9D3BF /* main.m */; };
+		3FF345CF1C140EF900E9D3BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF345CE1C140EF900E9D3BF /* AppDelegate.m */; };
+		3FF345D21C140EF900E9D3BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF345D11C140EF900E9D3BF /* ViewController.m */; };
+		3FF345D51C140EF900E9D3BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF345D31C140EF900E9D3BF /* Main.storyboard */; };
+		3FF345D71C140EF900E9D3BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF345D61C140EF900E9D3BF /* Assets.xcassets */; };
+		3FF345DA1C140EF900E9D3BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF345D81C140EF900E9D3BF /* LaunchScreen.storyboard */; };
+		3FF345E51C140EF900E9D3BF /* QGGDraftTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF345E41C140EF900E9D3BF /* QGGDraftTests.m */; };
+		3FF345F01C140EF900E9D3BF /* QGGDraftUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF345EF1C140EF900E9D3BF /* QGGDraftUITests.m */; };
+		3FF346061C14118800E9D3BF /* QGGClassFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF346051C14118800E9D3BF /* QGGClassFactory.m */; };
+		3FF346071C14118800E9D3BF /* QGGClassFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF346051C14118800E9D3BF /* QGGClassFactory.m */; };
+		3FF346081C14118800E9D3BF /* QGGClassFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF346051C14118800E9D3BF /* QGGClassFactory.m */; };
+		3FF3460B1C14128600E9D3BF /* QGGItemListMananger.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF3460A1C14128600E9D3BF /* QGGItemListMananger.m */; };
+		3FF3460C1C14128600E9D3BF /* QGGItemListMananger.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF3460A1C14128600E9D3BF /* QGGItemListMananger.m */; };
+		3FF3460D1C14128600E9D3BF /* QGGItemListMananger.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF3460A1C14128600E9D3BF /* QGGItemListMananger.m */; };
+		3FF3460F1C14138000E9D3BF /* QGGMenuList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FF3460E1C14138000E9D3BF /* QGGMenuList.plist */; };
+		3FF346101C14138000E9D3BF /* QGGMenuList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FF3460E1C14138000E9D3BF /* QGGMenuList.plist */; };
+		3FF346111C14138000E9D3BF /* QGGMenuList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FF3460E1C14138000E9D3BF /* QGGMenuList.plist */; };
+		3FF346141C1414AE00E9D3BF /* QGGMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF346131C1414AE00E9D3BF /* QGGMenuItem.m */; };
+		3FF346151C1414AE00E9D3BF /* QGGMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF346131C1414AE00E9D3BF /* QGGMenuItem.m */; };
+		3FF346161C1414AE00E9D3BF /* QGGMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF346131C1414AE00E9D3BF /* QGGMenuItem.m */; };
+		3FFD07991CA921A500AB4F10 /* UIView+QGGDrag.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFD07981CA921A500AB4F10 /* UIView+QGGDrag.m */; };
+		3FFD079F1CA9269500AB4F10 /* QGGQQDragViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFD079E1CA9269500AB4F10 /* QGGQQDragViewController.m */; };
+		448B9D6406074ABF68036772 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD9D2D74691C369AA574B35 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FF345E11C140EF900E9D3BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FF345BF1C140EF900E9D3BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF345C61C140EF900E9D3BF;
+			remoteInfo = QGGDraft;
+		};
+		3FF345EC1C140EF900E9D3BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FF345BF1C140EF900E9D3BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF345C61C140EF900E9D3BF;
+			remoteInfo = QGGDraft;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		209D55C0FAE22185BE4EFAB0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		3F04A70D1C2CE7370067A19D /* QGGImagePickerCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGImagePickerCollectionView.h; sourceTree = "<group>"; };
+		3F04A70E1C2CE7370067A19D /* QGGImagePickerCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGGImagePickerCollectionView.m; sourceTree = "<group>"; };
+		3F04A7161C2D21120067A19D /* ALAssetsGroup+GroupName_zh_CN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAssetsGroup+GroupName_zh_CN.h"; sourceTree = "<group>"; };
+		3F04A7171C2D21120067A19D /* ALAssetsGroup+GroupName_zh_CN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsGroup+GroupName_zh_CN.m"; sourceTree = "<group>"; };
+		3F04A7191C2D3E6F0067A19D /* QGGTapAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGTapAnimationView.h; sourceTree = "<group>"; };
+		3F04A71A1C2D3E6F0067A19D /* QGGTapAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGGTapAnimationView.m; sourceTree = "<group>"; };
+		3F04A71C1C2D40320067A19D /* QGGImagePickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGImagePickerCell.h; sourceTree = "<group>"; };
+		3F04A71D1C2D40320067A19D /* QGGImagePickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGGImagePickerCell.m; sourceTree = "<group>"; };
+		3F2AEB041D17C718001489D8 /* QGGTextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGTextAttachment.h; sourceTree = "<group>"; };
+		3F2AEB051D17C718001489D8 /* QGGTextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGGTextAttachment.m; sourceTree = "<group>"; };
+		3F2AEB071D17C9E0001489D8 /* QGGRichTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGRichTextViewController.h; sourceTree = "<group>"; };
+		3F2AEB081D17C9E0001489D8 /* QGGRichTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGGRichTextViewController.m; sourceTree = "<group>"; };
+		3F2AEB091D17C9E0001489D8 /* QGGRichTextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QGGRichTextViewController.xib; sourceTree = "<group>"; };
+		3F34D9791C82BEE10044D300 /* QGGRectPlayAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGRectPlayAnimationView.h; sourceTree = "<group>"; };
+		3F34D97A1C82BEE10044D300 /* QGGRectPlayAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGGRectPlayAnimationView.m; sourceTree = "<group>"; };
+		3F34D97C1C82C82D0044D300 /* QGGCircleLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGCircleLoadingView.h; sourceTree = "<group>"; };
+		3F34D97D1C82C82D0044D300 /* QGGCircleLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGGCircleLoadingView.m; sourceTree = "<group>"; };
+		3F630D121C79ED08009913DE /* QGGAutumnKeyFrameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGAutumnKeyFrameViewController.h; sourceTree = "<group>"; };
+		3F630D131C79ED08009913DE /* QGGAutumnKeyFrameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGGAutumnKeyFrameViewController.m; sourceTree = "<group>"; };
+		3F6EAB351CBB88C20040CCF2 /* TimeImitationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeImitationView.h; sourceTree = "<group>"; };
+		3F6EAB361CBB88C20040CCF2 /* TimeImitationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeImitationView.m; sourceTree = "<group>"; };
+		3F6EAB381CBB8B650040CCF2 /* QGGTimeImitationControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGTimeImitationControllerViewController.h; sourceTree = "<group>"; };
+		3F6EAB391CBB8B650040CCF2 /* QGGTimeImitationControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGGTimeImitationControllerViewController.m; sourceTree = "<group>"; };
+		3F7267021C2FAF3F00AAA6BA /* QGGImagePicker.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = QGGImagePicker.xcassets; sourceTree = "<group>"; };
+		3F7267041C31115800AAA6BA /* QGGImageDetailPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGImageDetailPickerViewController.h; sourceTree = "<group>"; };
+		3F7267051C31115800AAA6BA /* QGGImageDetailPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGGImageDetailPickerViewController.m; sourceTree = "<group>"; };
+		3F7267071C31262600AAA6BA /* QGGImagePickerDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGImagePickerDetailCell.h; sourceTree = "<group>"; };
+		3F7267081C31262600AAA6BA /* QGGImagePickerDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGGImagePickerDetailCell.m; sourceTree = "<group>"; };
+		3F7694F11CB356A100661BA8 /* QGGWaterLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGWaterLoadingView.h; sourceTree = "<group>"; };
+		3F7694F21CB356A100661BA8 /* QGGWaterLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGGWaterLoadingView.m; sourceTree = "<group>"; };
+		3F86DC8C1C1686F2009950A7 /* QGGTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGTextField.h; sourceTree = "<group>"; };
+		3F86DC8D1C1686F2009950A7 /* QGGTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGGTextField.m; sourceTree = "<group>"; };
+		3F86DC8F1C16A776009950A7 /* QGGMenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGMenuTableViewCell.h; sourceTree = "<group>"; };
+		3F86DC901C16A776009950A7 /* QGGMenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGGMenuTableViewCell.m; sourceTree = "<group>"; };
+		3F86DC911C16A776009950A7 /* QGGMenuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QGGMenuTableViewCell.xib; sourceTree = "<group>"; };
+		3F86DC951C16B580009950A7 /* QGGTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGTestViewController.h; sourceTree = "<group>"; };
+		3F86DC961C16B580009950A7 /* QGGTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGGTestViewController.m; sourceTree = "<group>"; };
+		3F86DC971C16B580009950A7 /* QGGTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QGGTestViewController.xib; sourceTree = "<group>"; };
+		3F86DC9A1C16B86B009950A7 /* QGGMaxLenTextFieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGMaxLenTextFieldViewController.h; sourceTree = "<group>"; };
+		3F86DC9B1C16B86B009950A7 /* QGGMaxLenTextFieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGGMaxLenTextFieldViewController.m; sourceTree = "<group>"; };
+		3F929BF71C2BE62A004A1414 /* QGGPhotoLibTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGPhotoLibTestViewController.h; sourceTree = "<group>"; };
+		3F929BF81C2BE62A004A1414 /* QGGPhotoLibTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGGPhotoLibTestViewController.m; sourceTree = "<group>"; };
+		3F929BFD1C2BF059004A1414 /* QGGImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGImagePicker.h; sourceTree = "<group>"; };
+		3F929BFE1C2BF059004A1414 /* QGGImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGGImagePicker.m; sourceTree = "<group>"; };
+		3F929C061C2C06B6004A1414 /* UIColor+hexFloatColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+hexFloatColor.h"; sourceTree = "<group>"; };
+		3F929C071C2C06B6004A1414 /* UIColor+hexFloatColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+hexFloatColor.m"; sourceTree = "<group>"; };
+		3F929C0C1C2C0837004A1414 /* QGGImageGroupTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGImageGroupTableView.h; sourceTree = "<group>"; };
+		3F929C0D1C2C0837004A1414 /* QGGImageGroupTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGGImageGroupTableView.m; sourceTree = "<group>"; };
+		3F929C0F1C2C0857004A1414 /* QGGImageGroupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGImageGroupCell.h; sourceTree = "<group>"; };
+		3F929C101C2C0857004A1414 /* QGGImageGroupCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGGImageGroupCell.m; sourceTree = "<group>"; };
+		3F929C121C2C0AA9004A1414 /* QGGImageGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGImageGroupViewController.h; sourceTree = "<group>"; };
+		3F929C131C2C0AA9004A1414 /* QGGImageGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGGImageGroupViewController.m; sourceTree = "<group>"; };
+		3F929C151C2C0C04004A1414 /* QGGImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGImagePickerViewController.h; sourceTree = "<group>"; };
+		3F929C161C2C0C04004A1414 /* QGGImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGGImagePickerViewController.m; sourceTree = "<group>"; };
+		3FB6B3181C7C613F007AF4B0 /* QGGLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGLoadingView.h; sourceTree = "<group>"; };
+		3FB6B3191C7C613F007AF4B0 /* QGGLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGGLoadingView.m; sourceTree = "<group>"; };
+		3FB6B31B1C7C6584007AF4B0 /* QGGAnimationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGAnimationsViewController.h; sourceTree = "<group>"; };
+		3FB6B31C1C7C6584007AF4B0 /* QGGAnimationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGGAnimationsViewController.m; sourceTree = "<group>"; };
+		3FB971551CC9DE5C00025A62 /* QGGFirsetHideBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGFirsetHideBarViewController.h; sourceTree = "<group>"; };
+		3FB971561CC9DE5C00025A62 /* QGGFirsetHideBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGGFirsetHideBarViewController.m; sourceTree = "<group>"; };
+		3FB9715B1CC9EDB000025A62 /* QGGSecondHideBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGSecondHideBarViewController.h; sourceTree = "<group>"; };
+		3FB9715C1CC9EDB000025A62 /* QGGSecondHideBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGGSecondHideBarViewController.m; sourceTree = "<group>"; };
+		3FB9715E1CC9EE7600025A62 /* QGGShowBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGShowBarViewController.h; sourceTree = "<group>"; };
+		3FB9715F1CC9EE7600025A62 /* QGGShowBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGGShowBarViewController.m; sourceTree = "<group>"; };
+		3FDCDD841C3221F0002AE0AA /* UIImage+QGGRenderedColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QGGRenderedColor.h"; sourceTree = "<group>"; };
+		3FDCDD851C3221F0002AE0AA /* UIImage+QGGRenderedColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QGGRenderedColor.m"; sourceTree = "<group>"; };
+		3FDCDD871C322802002AE0AA /* QGGImagePickerViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGImagePickerViewControllerDelegate.h; sourceTree = "<group>"; };
+		3FDEE51C1C7C9B1B0051CCC3 /* QGGGradientMaskLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGGradientMaskLabel.h; sourceTree = "<group>"; };
+		3FDEE51D1C7C9B1B0051CCC3 /* QGGGradientMaskLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGGGradientMaskLabel.m; sourceTree = "<group>"; };
+		3FF345C71C140EF900E9D3BF /* QGGDraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QGGDraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF345CB1C140EF900E9D3BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FF345CD1C140EF900E9D3BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3FF345CE1C140EF900E9D3BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3FF345D01C140EF900E9D3BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3FF345D11C140EF900E9D3BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3FF345D41C140EF900E9D3BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FF345D61C140EF900E9D3BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FF345D91C140EF900E9D3BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FF345DB1C140EF900E9D3BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF345E01C140EF900E9D3BF /* QGGDraftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QGGDraftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF345E41C140EF900E9D3BF /* QGGDraftTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QGGDraftTests.m; sourceTree = "<group>"; };
+		3FF345E61C140EF900E9D3BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF345EB1C140EF900E9D3BF /* QGGDraftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QGGDraftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF345EF1C140EF900E9D3BF /* QGGDraftUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QGGDraftUITests.m; sourceTree = "<group>"; };
+		3FF345F11C140EF900E9D3BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF346041C14118800E9D3BF /* QGGClassFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QGGClassFactory.h; path = Model/QGGClassFactory.h; sourceTree = SOURCE_ROOT; };
+		3FF346051C14118800E9D3BF /* QGGClassFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QGGClassFactory.m; path = Model/QGGClassFactory.m; sourceTree = SOURCE_ROOT; };
+		3FF346091C14128600E9D3BF /* QGGItemListMananger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QGGItemListMananger.h; path = Model/QGGItemListMananger.h; sourceTree = SOURCE_ROOT; };
+		3FF3460A1C14128600E9D3BF /* QGGItemListMananger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QGGItemListMananger.m; path = Model/QGGItemListMananger.m; sourceTree = SOURCE_ROOT; };
+		3FF3460E1C14138000E9D3BF /* QGGMenuList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = QGGMenuList.plist; path = Model/QGGMenuList.plist; sourceTree = SOURCE_ROOT; };
+		3FF346121C1414AE00E9D3BF /* QGGMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QGGMenuItem.h; path = Model/QGGMenuItem.h; sourceTree = SOURCE_ROOT; };
+		3FF346131C1414AE00E9D3BF /* QGGMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QGGMenuItem.m; path = Model/QGGMenuItem.m; sourceTree = SOURCE_ROOT; };
+		3FFD07971CA921A500AB4F10 /* UIView+QGGDrag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+QGGDrag.h"; sourceTree = "<group>"; };
+		3FFD07981CA921A500AB4F10 /* UIView+QGGDrag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+QGGDrag.m"; sourceTree = "<group>"; };
+		3FFD079D1CA9269500AB4F10 /* QGGQQDragViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGQQDragViewController.h; sourceTree = "<group>"; };
+		3FFD079E1CA9269500AB4F10 /* QGGQQDragViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGGQQDragViewController.m; sourceTree = "<group>"; };
+		765599CEF0027F6FC6C39DF5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		9AD9D2D74691C369AA574B35 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FF345C41C140EF900E9D3BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448B9D6406074ABF68036772 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF345DD1C140EF900E9D3BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF345E81C140EF900E9D3BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22D974E1E084F56165F9F345 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AD9D2D74691C369AA574B35 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F2AEB021D17C5A9001489D8 /* TextView */ = {
+			isa = PBXGroup;
+			children = (
+				3F2AEB041D17C718001489D8 /* QGGTextAttachment.h */,
+				3F2AEB051D17C718001489D8 /* QGGTextAttachment.m */,
+				3F2AEB071D17C9E0001489D8 /* QGGRichTextViewController.h */,
+				3F2AEB081D17C9E0001489D8 /* QGGRichTextViewController.m */,
+				3F2AEB091D17C9E0001489D8 /* QGGRichTextViewController.xib */,
+			);
+			path = TextView;
+			sourceTree = "<group>";
+		};
+		3F35834B1D59EAD2009C6752 /* CustAttachment */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustAttachment;
+			sourceTree = "<group>";
+		};
+		3F45BC271C4636C5007027D5 /* YYWebImgeTest */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = YYWebImgeTest;
+			sourceTree = "<group>";
+		};
+		3F630D0C1C79ECBA009913DE /* AutumnKeyFrame */ = {
+			isa = PBXGroup;
+			children = (
+				3F630D121C79ED08009913DE /* QGGAutumnKeyFrameViewController.h */,
+				3F630D131C79ED08009913DE /* QGGAutumnKeyFrameViewController.m */,
+			);
+			path = AutumnKeyFrame;
+			sourceTree = "<group>";
+		};
+		3F6EAB301CBB87480040CCF2 /* ShapeLayer */ = {
+			isa = PBXGroup;
+			children = (
+				3F6EAB341CBB87D60040CCF2 /* Controller */,
+				3F6EAB331CBB87BF0040CCF2 /* Model */,
+				3F6EAB321CBB87A30040CCF2 /* ViewModel */,
+				3F6EAB311CBB878E0040CCF2 /* View */,
+			);
+			path = ShapeLayer;
+			sourceTree = "<group>";
+		};
+		3F6EAB311CBB878E0040CCF2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3F6EAB351CBB88C20040CCF2 /* TimeImitationView.h */,
+				3F6EAB361CBB88C20040CCF2 /* TimeImitationView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3F6EAB321CBB87A30040CCF2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3F6EAB331CBB87BF0040CCF2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F6EAB341CBB87D60040CCF2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3F6EAB381CBB8B650040CCF2 /* QGGTimeImitationControllerViewController.h */,
+				3F6EAB391CBB8B650040CCF2 /* QGGTimeImitationControllerViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3F7562171CB6530B001D371A /* MVVMDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3F75621B1CB6534A001D371A /* Model */,
+				3F75621A1CB65330001D371A /* ViewController */,
+				3F7562191CB65329001D371A /* ViewModel */,
+				3F7562181CB65321001D371A /* View */,
+			);
+			path = MVVMDemo;
+			sourceTree = "<group>";
+		};
+		3F7562181CB65321001D371A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3F7562191CB65329001D371A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3F75621A1CB65330001D371A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		3F75621B1CB6534A001D371A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F86DC8B1C1686BE009950A7 /* CustTextField */ = {
+			isa = PBXGroup;
+			children = (
+				3F86DC8C1C1686F2009950A7 /* QGGTextField.h */,
+				3F86DC8D1C1686F2009950A7 /* QGGTextField.m */,
+				3F86DC9A1C16B86B009950A7 /* QGGMaxLenTextFieldViewController.h */,
+				3F86DC9B1C16B86B009950A7 /* QGGMaxLenTextFieldViewController.m */,
+			);
+			path = CustTextField;
+			sourceTree = "<group>";
+		};
+		3F86DC941C16B542009950A7 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				3F86DC951C16B580009950A7 /* QGGTestViewController.h */,
+				3F86DC961C16B580009950A7 /* QGGTestViewController.m */,
+				3F86DC971C16B580009950A7 /* QGGTestViewController.xib */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		3F929BF61C2BE52B004A1414 /* PhotoLib */ = {
+			isa = PBXGroup;
+			children = (
+				3F929BF71C2BE62A004A1414 /* QGGPhotoLibTestViewController.h */,
+				3F929BF81C2BE62A004A1414 /* QGGPhotoLibTestViewController.m */,
+				3F929BFD1C2BF059004A1414 /* QGGImagePicker.h */,
+				3F929BFE1C2BF059004A1414 /* QGGImagePicker.m */,
+				3F929C0C1C2C0837004A1414 /* QGGImageGroupTableView.h */,
+				3F929C0D1C2C0837004A1414 /* QGGImageGroupTableView.m */,
+				3F929C0F1C2C0857004A1414 /* QGGImageGroupCell.h */,
+				3F929C101C2C0857004A1414 /* QGGImageGroupCell.m */,
+				3F929C121C2C0AA9004A1414 /* QGGImageGroupViewController.h */,
+				3F929C131C2C0AA9004A1414 /* QGGImageGroupViewController.m */,
+				3F929C151C2C0C04004A1414 /* QGGImagePickerViewController.h */,
+				3F929C161C2C0C04004A1414 /* QGGImagePickerViewController.m */,
+				3F04A70D1C2CE7370067A19D /* QGGImagePickerCollectionView.h */,
+				3F04A70E1C2CE7370067A19D /* QGGImagePickerCollectionView.m */,
+				3F04A7191C2D3E6F0067A19D /* QGGTapAnimationView.h */,
+				3F04A71A1C2D3E6F0067A19D /* QGGTapAnimationView.m */,
+				3F04A71C1C2D40320067A19D /* QGGImagePickerCell.h */,
+				3F04A71D1C2D40320067A19D /* QGGImagePickerCell.m */,
+				3F7267021C2FAF3F00AAA6BA /* QGGImagePicker.xcassets */,
+				3F7267041C31115800AAA6BA /* QGGImageDetailPickerViewController.h */,
+				3F7267051C31115800AAA6BA /* QGGImageDetailPickerViewController.m */,
+				3F7267071C31262600AAA6BA /* QGGImagePickerDetailCell.h */,
+				3F7267081C31262600AAA6BA /* QGGImagePickerDetailCell.m */,
+				3FDCDD871C322802002AE0AA /* QGGImagePickerViewControllerDelegate.h */,
+			);
+			path = PhotoLib;
+			sourceTree = "<group>";
+		};
+		3FB6B3171C7C5FC6007AF4B0 /* ViewAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				3FB6B3181C7C613F007AF4B0 /* QGGLoadingView.h */,
+				3FB6B3191C7C613F007AF4B0 /* QGGLoadingView.m */,
+				3FB6B31B1C7C6584007AF4B0 /* QGGAnimationsViewController.h */,
+				3FB6B31C1C7C6584007AF4B0 /* QGGAnimationsViewController.m */,
+				3FDEE51C1C7C9B1B0051CCC3 /* QGGGradientMaskLabel.h */,
+				3FDEE51D1C7C9B1B0051CCC3 /* QGGGradientMaskLabel.m */,
+				3F34D9791C82BEE10044D300 /* QGGRectPlayAnimationView.h */,
+				3F34D97A1C82BEE10044D300 /* QGGRectPlayAnimationView.m */,
+				3F34D97C1C82C82D0044D300 /* QGGCircleLoadingView.h */,
+				3F34D97D1C82C82D0044D300 /* QGGCircleLoadingView.m */,
+				3F7694F11CB356A100661BA8 /* QGGWaterLoadingView.h */,
+				3F7694F21CB356A100661BA8 /* QGGWaterLoadingView.m */,
+			);
+			path = ViewAnimations;
+			sourceTree = "<group>";
+		};
+		3FB971541CC9DDF600025A62 /* BarHiddenTest */ = {
+			isa = PBXGroup;
+			children = (
+				3FB971551CC9DE5C00025A62 /* QGGFirsetHideBarViewController.h */,
+				3FB971561CC9DE5C00025A62 /* QGGFirsetHideBarViewController.m */,
+				3FB9715B1CC9EDB000025A62 /* QGGSecondHideBarViewController.h */,
+				3FB9715C1CC9EDB000025A62 /* QGGSecondHideBarViewController.m */,
+				3FB9715E1CC9EE7600025A62 /* QGGShowBarViewController.h */,
+				3FB9715F1CC9EE7600025A62 /* QGGShowBarViewController.m */,
+			);
+			path = BarHiddenTest;
+			sourceTree = "<group>";
+		};
+		3FF345BE1C140EF900E9D3BF = {
+			isa = PBXGroup;
+			children = (
+				3FF345C91C140EF900E9D3BF /* QGGDraft */,
+				3FF345E31C140EF900E9D3BF /* QGGDraftTests */,
+				3FF345EE1C140EF900E9D3BF /* QGGDraftUITests */,
+				3FF345C81C140EF900E9D3BF /* Products */,
+				932B3B51FD7A36E9A58362A7 /* Pods */,
+				22D974E1E084F56165F9F345 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3FF345C81C140EF900E9D3BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FF345C71C140EF900E9D3BF /* QGGDraft.app */,
+				3FF345E01C140EF900E9D3BF /* QGGDraftTests.xctest */,
+				3FF345EB1C140EF900E9D3BF /* QGGDraftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FF345C91C140EF900E9D3BF /* QGGDraft */ = {
+			isa = PBXGroup;
+			children = (
+				3FF345FE1C140F5400E9D3BF /* Expand */,
+				3FF345FD1C140F2600E9D3BF /* Bussiness */,
+				3FF345CD1C140EF900E9D3BF /* AppDelegate.h */,
+				3FF345CE1C140EF900E9D3BF /* AppDelegate.m */,
+				3FF345D01C140EF900E9D3BF /* ViewController.h */,
+				3FF345D11C140EF900E9D3BF /* ViewController.m */,
+				3F86DC8F1C16A776009950A7 /* QGGMenuTableViewCell.h */,
+				3F86DC901C16A776009950A7 /* QGGMenuTableViewCell.m */,
+				3F86DC911C16A776009950A7 /* QGGMenuTableViewCell.xib */,
+				3FF345D31C140EF900E9D3BF /* Main.storyboard */,
+				3FF345D61C140EF900E9D3BF /* Assets.xcassets */,
+				3FF345D81C140EF900E9D3BF /* LaunchScreen.storyboard */,
+				3FF345DB1C140EF900E9D3BF /* Info.plist */,
+				3FF345CA1C140EF900E9D3BF /* Supporting Files */,
+			);
+			path = QGGDraft;
+			sourceTree = "<group>";
+		};
+		3FF345CA1C140EF900E9D3BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FF345CB1C140EF900E9D3BF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FF345E31C140EF900E9D3BF /* QGGDraftTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FF345E41C140EF900E9D3BF /* QGGDraftTests.m */,
+				3FF345E61C140EF900E9D3BF /* Info.plist */,
+			);
+			path = QGGDraftTests;
+			sourceTree = "<group>";
+		};
+		3FF345EE1C140EF900E9D3BF /* QGGDraftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FF345EF1C140EF900E9D3BF /* QGGDraftUITests.m */,
+				3FF345F11C140EF900E9D3BF /* Info.plist */,
+			);
+			path = QGGDraftUITests;
+			sourceTree = "<group>";
+		};
+		3FF345FD1C140F2600E9D3BF /* Bussiness */ = {
+			isa = PBXGroup;
+			children = (
+				3F35834B1D59EAD2009C6752 /* CustAttachment */,
+				3F2AEB021D17C5A9001489D8 /* TextView */,
+				3FB971541CC9DDF600025A62 /* BarHiddenTest */,
+				3F6EAB301CBB87480040CCF2 /* ShapeLayer */,
+				3F7562171CB6530B001D371A /* MVVMDemo */,
+				3FFD07911CA91B4700AB4F10 /* QQDragView */,
+				3FB6B3171C7C5FC6007AF4B0 /* ViewAnimations */,
+				3F630D0C1C79ECBA009913DE /* AutumnKeyFrame */,
+				3F45BC271C4636C5007027D5 /* YYWebImgeTest */,
+				3F929BF61C2BE52B004A1414 /* PhotoLib */,
+				3F86DC941C16B542009950A7 /* Test */,
+				3F86DC8B1C1686BE009950A7 /* CustTextField */,
+			);
+			path = Bussiness;
+			sourceTree = "<group>";
+		};
+		3FF345FE1C140F5400E9D3BF /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				3FF346021C140FD500E9D3BF /* Category */,
+				3FF346011C140FAC00E9D3BF /* Util */,
+				3FF346001C140F8A00E9D3BF /* Security */,
+			);
+			name = Expand;
+			path = Expand/Category;
+			sourceTree = "<group>";
+		};
+		3FF346001C140F8A00E9D3BF /* Security */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		3FF346011C140FAC00E9D3BF /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				3FF346031C14111200E9D3BF /* Model */,
+				3FF346041C14118800E9D3BF /* QGGClassFactory.h */,
+				3FF346051C14118800E9D3BF /* QGGClassFactory.m */,
+				3FF346091C14128600E9D3BF /* QGGItemListMananger.h */,
+				3FF3460A1C14128600E9D3BF /* QGGItemListMananger.m */,
+				3FF3460E1C14138000E9D3BF /* QGGMenuList.plist */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		3FF346021C140FD500E9D3BF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3F929C061C2C06B6004A1414 /* UIColor+hexFloatColor.h */,
+				3F929C071C2C06B6004A1414 /* UIColor+hexFloatColor.m */,
+				3F04A7161C2D21120067A19D /* ALAssetsGroup+GroupName_zh_CN.h */,
+				3F04A7171C2D21120067A19D /* ALAssetsGroup+GroupName_zh_CN.m */,
+				3FDCDD841C3221F0002AE0AA /* UIImage+QGGRenderedColor.h */,
+				3FDCDD851C3221F0002AE0AA /* UIImage+QGGRenderedColor.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		3FF346031C14111200E9D3BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3FF346121C1414AE00E9D3BF /* QGGMenuItem.h */,
+				3FF346131C1414AE00E9D3BF /* QGGMenuItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3FFD07911CA91B4700AB4F10 /* QQDragView */ = {
+			isa = PBXGroup;
+			children = (
+				3FFD07931CA91C0800AB4F10 /* ViewController */,
+				3FFD07921CA91BF700AB4F10 /* View */,
+			);
+			path = QQDragView;
+			sourceTree = "<group>";
+		};
+		3FFD07921CA91BF700AB4F10 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3FFD07971CA921A500AB4F10 /* UIView+QGGDrag.h */,
+				3FFD07981CA921A500AB4F10 /* UIView+QGGDrag.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3FFD07931CA91C0800AB4F10 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3FFD079D1CA9269500AB4F10 /* QGGQQDragViewController.h */,
+				3FFD079E1CA9269500AB4F10 /* QGGQQDragViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		932B3B51FD7A36E9A58362A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				209D55C0FAE22185BE4EFAB0 /* Pods.debug.xcconfig */,
+				765599CEF0027F6FC6C39DF5 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FF345C61C140EF900E9D3BF /* QGGDraft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FF345F41C140EF900E9D3BF /* Build configuration list for PBXNativeTarget "QGGDraft" */;
+			buildPhases = (
+				B9B644D9FA78F4E85FD8F508 /* Check Pods Manifest.lock */,
+				3FF345C31C140EF900E9D3BF /* Sources */,
+				3FF345C41C140EF900E9D3BF /* Frameworks */,
+				3FF345C51C140EF900E9D3BF /* Resources */,
+				DA4E96B4D7883E5FE2E22209 /* Copy Pods Resources */,
+				BA751375350AC0C23A599CF0 /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QGGDraft;
+			productName = QGGDraft;
+			productReference = 3FF345C71C140EF900E9D3BF /* QGGDraft.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FF345DF1C140EF900E9D3BF /* QGGDraftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FF345F71C140EF900E9D3BF /* Build configuration list for PBXNativeTarget "QGGDraftTests" */;
+			buildPhases = (
+				3FF345DC1C140EF900E9D3BF /* Sources */,
+				3FF345DD1C140EF900E9D3BF /* Frameworks */,
+				3FF345DE1C140EF900E9D3BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FF345E21C140EF900E9D3BF /* PBXTargetDependency */,
+			);
+			name = QGGDraftTests;
+			productName = QGGDraftTests;
+			productReference = 3FF345E01C140EF900E9D3BF /* QGGDraftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FF345EA1C140EF900E9D3BF /* QGGDraftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FF345FA1C140EF900E9D3BF /* Build configuration list for PBXNativeTarget "QGGDraftUITests" */;
+			buildPhases = (
+				3FF345E71C140EF900E9D3BF /* Sources */,
+				3FF345E81C140EF900E9D3BF /* Frameworks */,
+				3FF345E91C140EF900E9D3BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FF345ED1C140EF900E9D3BF /* PBXTargetDependency */,
+			);
+			name = QGGDraftUITests;
+			productName = QGGDraftUITests;
+			productReference = 3FF345EB1C140EF900E9D3BF /* QGGDraftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FF345BF1C140EF900E9D3BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Qingg;
+				TargetAttributes = {
+					3FF345C61C140EF900E9D3BF = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 8YA2BKNJF5;
+					};
+					3FF345DF1C140EF900E9D3BF = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 3FF345C61C140EF900E9D3BF;
+					};
+					3FF345EA1C140EF900E9D3BF = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 3FF345C61C140EF900E9D3BF;
+					};
+				};
+			};
+			buildConfigurationList = 3FF345C21C140EF900E9D3BF /* Build configuration list for PBXProject "QGGDraft" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FF345BE1C140EF900E9D3BF;
+			productRefGroup = 3FF345C81C140EF900E9D3BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FF345C61C140EF900E9D3BF /* QGGDraft */,
+				3FF345DF1C140EF900E9D3BF /* QGGDraftTests */,
+				3FF345EA1C140EF900E9D3BF /* QGGDraftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FF345C51C140EF900E9D3BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F86DC931C16A776009950A7 /* QGGMenuTableViewCell.xib in Resources */,
+				3FF345DA1C140EF900E9D3BF /* LaunchScreen.storyboard in Resources */,
+				3F7267031C2FAF3F00AAA6BA /* QGGImagePicker.xcassets in Resources */,
+				3FF345D71C140EF900E9D3BF /* Assets.xcassets in Resources */,
+				3FF345D51C140EF900E9D3BF /* Main.storyboard in Resources */,
+				3F86DC991C16B580009950A7 /* QGGTestViewController.xib in Resources */,
+				3FF3460F1C14138000E9D3BF /* QGGMenuList.plist in Resources */,
+				3F2AEB0B1D17C9E0001489D8 /* QGGRichTextViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF345DE1C140EF900E9D3BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF346101C14138000E9D3BF /* QGGMenuList.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF345E91C140EF900E9D3BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF346111C14138000E9D3BF /* QGGMenuList.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B9B644D9FA78F4E85FD8F508 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BA751375350AC0C23A599CF0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA4E96B4D7883E5FE2E22209 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FF345C31C140EF900E9D3BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F04A70F1C2CE7370067A19D /* QGGImagePickerCollectionView.m in Sources */,
+				3F86DC981C16B580009950A7 /* QGGTestViewController.m in Sources */,
+				3FDEE51E1C7C9B1B0051CCC3 /* QGGGradientMaskLabel.m in Sources */,
+				3F04A71E1C2D40320067A19D /* QGGImagePickerCell.m in Sources */,
+				3F86DC921C16A776009950A7 /* QGGMenuTableViewCell.m in Sources */,
+				3F04A7181C2D21120067A19D /* ALAssetsGroup+GroupName_zh_CN.m in Sources */,
+				3FB971571CC9DE5C00025A62 /* QGGFirsetHideBarViewController.m in Sources */,
+				3F929C141C2C0AA9004A1414 /* QGGImageGroupViewController.m in Sources */,
+				3FF345D21C140EF900E9D3BF /* ViewController.m in Sources */,
+				3F6EAB3A1CBB8B650040CCF2 /* QGGTimeImitationControllerViewController.m in Sources */,
+				3FB6B31D1C7C6584007AF4B0 /* QGGAnimationsViewController.m in Sources */,
+				3F7267061C31115800AAA6BA /* QGGImageDetailPickerViewController.m in Sources */,
+				3FDCDD861C3221F0002AE0AA /* UIImage+QGGRenderedColor.m in Sources */,
+				3F7694F31CB356A100661BA8 /* QGGWaterLoadingView.m in Sources */,
+				3FFD07991CA921A500AB4F10 /* UIView+QGGDrag.m in Sources */,
+				3FB6B31A1C7C613F007AF4B0 /* QGGLoadingView.m in Sources */,
+				3F34D97B1C82BEE10044D300 /* QGGRectPlayAnimationView.m in Sources */,
+				3F929C081C2C06B6004A1414 /* UIColor+hexFloatColor.m in Sources */,
+				3F929C171C2C0C04004A1414 /* QGGImagePickerViewController.m in Sources */,
+				3FF3460B1C14128600E9D3BF /* QGGItemListMananger.m in Sources */,
+				3FF346061C14118800E9D3BF /* QGGClassFactory.m in Sources */,
+				3FFD079F1CA9269500AB4F10 /* QGGQQDragViewController.m in Sources */,
+				3FB9715D1CC9EDB000025A62 /* QGGSecondHideBarViewController.m in Sources */,
+				3F2AEB0A1D17C9E0001489D8 /* QGGRichTextViewController.m in Sources */,
+				3F34D97E1C82C82D0044D300 /* QGGCircleLoadingView.m in Sources */,
+				3FF346141C1414AE00E9D3BF /* QGGMenuItem.m in Sources */,
+				3FB971601CC9EE7600025A62 /* QGGShowBarViewController.m in Sources */,
+				3F929C111C2C0857004A1414 /* QGGImageGroupCell.m in Sources */,
+				3F86DC8E1C1686F2009950A7 /* QGGTextField.m in Sources */,
+				3F929BF91C2BE62A004A1414 /* QGGPhotoLibTestViewController.m in Sources */,
+				3F86DC9C1C16B86B009950A7 /* QGGMaxLenTextFieldViewController.m in Sources */,
+				3F929C0E1C2C0837004A1414 /* QGGImageGroupTableView.m in Sources */,
+				3F2AEB061D17C718001489D8 /* QGGTextAttachment.m in Sources */,
+				3F04A71B1C2D3E6F0067A19D /* QGGTapAnimationView.m in Sources */,
+				3FF345CF1C140EF900E9D3BF /* AppDelegate.m in Sources */,
+				3FF345CC1C140EF900E9D3BF /* main.m in Sources */,
+				3F929BFF1C2BF059004A1414 /* QGGImagePicker.m in Sources */,
+				3F7267091C31262600AAA6BA /* QGGImagePickerDetailCell.m in Sources */,
+				3F6EAB371CBB88C20040CCF2 /* TimeImitationView.m in Sources */,
+				3F630D151C79ED08009913DE /* QGGAutumnKeyFrameViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF345DC1C140EF900E9D3BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF345E51C140EF900E9D3BF /* QGGDraftTests.m in Sources */,
+				3FF346071C14118800E9D3BF /* QGGClassFactory.m in Sources */,
+				3FF3460C1C14128600E9D3BF /* QGGItemListMananger.m in Sources */,
+				3FF346151C1414AE00E9D3BF /* QGGMenuItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF345E71C140EF900E9D3BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF345F01C140EF900E9D3BF /* QGGDraftUITests.m in Sources */,
+				3FF346081C14118800E9D3BF /* QGGClassFactory.m in Sources */,
+				3FF3460D1C14128600E9D3BF /* QGGItemListMananger.m in Sources */,
+				3FF346161C1414AE00E9D3BF /* QGGMenuItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FF345E21C140EF900E9D3BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF345C61C140EF900E9D3BF /* QGGDraft */;
+			targetProxy = 3FF345E11C140EF900E9D3BF /* PBXContainerItemProxy */;
+		};
+		3FF345ED1C140EF900E9D3BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF345C61C140EF900E9D3BF /* QGGDraft */;
+			targetProxy = 3FF345EC1C140EF900E9D3BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FF345D31C140EF900E9D3BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FF345D41C140EF900E9D3BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FF345D81C140EF900E9D3BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FF345D91C140EF900E9D3BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FF345F21C140EF900E9D3BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3FF345F31C140EF900E9D3BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FF345F51C140EF900E9D3BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 209D55C0FAE22185BE4EFAB0 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = QGGDraft/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Qgg.QGGDraft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		3FF345F61C140EF900E9D3BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 765599CEF0027F6FC6C39DF5 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = QGGDraft/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Qgg.QGGDraft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		3FF345F81C140EF900E9D3BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QGGDraftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Qgg.QGGDraftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QGGDraft.app/QGGDraft";
+			};
+			name = Debug;
+		};
+		3FF345F91C140EF900E9D3BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QGGDraftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Qgg.QGGDraftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QGGDraft.app/QGGDraft";
+			};
+			name = Release;
+		};
+		3FF345FB1C140EF900E9D3BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QGGDraftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Qgg.QGGDraftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QGGDraft;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3FF345FC1C140EF900E9D3BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QGGDraftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Qgg.QGGDraftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QGGDraft;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FF345C21C140EF900E9D3BF /* Build configuration list for PBXProject "QGGDraft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF345F21C140EF900E9D3BF /* Debug */,
+				3FF345F31C140EF900E9D3BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FF345F41C140EF900E9D3BF /* Build configuration list for PBXNativeTarget "QGGDraft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF345F51C140EF900E9D3BF /* Debug */,
+				3FF345F61C140EF900E9D3BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FF345F71C140EF900E9D3BF /* Build configuration list for PBXNativeTarget "QGGDraftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF345F81C140EF900E9D3BF /* Debug */,
+				3FF345F91C140EF900E9D3BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FF345FA1C140EF900E9D3BF /* Build configuration list for PBXNativeTarget "QGGDraftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF345FB1C140EF900E9D3BF /* Debug */,
+				3FF345FC1C140EF900E9D3BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FF345BF1C140EF900E9D3BF /* Project object */;
+}
