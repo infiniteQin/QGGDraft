@@ -22,6 +22,7 @@
     self.edgesForExtendedLayout = UIRectEdgeNone;
     self.extendedLayoutIncludesOpaqueBars = YES;
     self.automaticallyAdjustsScrollViewInsets = YES;
+    
     // Do any additional setup after loading the view from its nib.
     NSMutableAttributedString *mutableAttrStr = [[NSMutableAttributedString alloc] initWithString:@"中文版车上飞机上的控件辐克里斯朵夫肌肤的伤口附近" attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:16],NSForegroundColorAttributeName:[UIColor blueColor]}];
     

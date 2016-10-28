@@ -41,8 +41,16 @@
 		3FB971571CC9DE5C00025A62 /* QGGFirsetHideBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB971561CC9DE5C00025A62 /* QGGFirsetHideBarViewController.m */; };
 		3FB9715D1CC9EDB000025A62 /* QGGSecondHideBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9715C1CC9EDB000025A62 /* QGGSecondHideBarViewController.m */; };
 		3FB971601CC9EE7600025A62 /* QGGShowBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9715F1CC9EE7600025A62 /* QGGShowBarViewController.m */; };
+		3FBA3B4C1D66DD49009463C2 /* QGGHitTestOutterScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA3B4B1D66DD49009463C2 /* QGGHitTestOutterScrollView.m */; };
+		3FBA3B4F1D66DD5A009463C2 /* QGGHitTestInnerScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA3B4E1D66DD5A009463C2 /* QGGHitTestInnerScrollView.m */; };
+		3FBA3B521D66DE64009463C2 /* QGGHitTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA3B511D66DE64009463C2 /* QGGHitTestViewController.m */; };
+		3FBA3B551D66E4BB009463C2 /* QGGWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA3B541D66E4BB009463C2 /* QGGWindow.m */; };
 		3FDCDD861C3221F0002AE0AA /* UIImage+QGGRenderedColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDCDD851C3221F0002AE0AA /* UIImage+QGGRenderedColor.m */; };
 		3FDEE51E1C7C9B1B0051CCC3 /* QGGGradientMaskLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDEE51D1C7C9B1B0051CCC3 /* QGGGradientMaskLabel.m */; };
+		3FE840C41D6055C100633B2A /* QGGNestScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE840C31D6055C100633B2A /* QGGNestScrollViewController.m */; };
+		3FE840C71D60617300633B2A /* QGGNestScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE840C61D60617300633B2A /* QGGNestScrollView.m */; };
+		3FE840CA1D607B5D00633B2A /* QGGApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE840C91D607B5D00633B2A /* QGGApplication.m */; };
+		3FE840CD1D60BCEC00633B2A /* QGGNestPageViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE840CC1D60BCEC00633B2A /* QGGNestPageViewViewController.m */; };
 		3FF345CC1C140EF900E9D3BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF345CB1C140EF900E9D3BF /* main.m */; };
 		3FF345CF1C140EF900E9D3BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF345CE1C140EF900E9D3BF /* AppDelegate.m */; };
 		3FF345D21C140EF900E9D3BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF345D11C140EF900E9D3BF /* ViewController.m */; };
@@ -151,11 +159,27 @@
 		3FB9715C1CC9EDB000025A62 /* QGGSecondHideBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGGSecondHideBarViewController.m; sourceTree = "<group>"; };
 		3FB9715E1CC9EE7600025A62 /* QGGShowBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGShowBarViewController.h; sourceTree = "<group>"; };
 		3FB9715F1CC9EE7600025A62 /* QGGShowBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGGShowBarViewController.m; sourceTree = "<group>"; };
+		3FBA3B4A1D66DD49009463C2 /* QGGHitTestOutterScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGHitTestOutterScrollView.h; sourceTree = "<group>"; };
+		3FBA3B4B1D66DD49009463C2 /* QGGHitTestOutterScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGGHitTestOutterScrollView.m; sourceTree = "<group>"; };
+		3FBA3B4D1D66DD5A009463C2 /* QGGHitTestInnerScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGHitTestInnerScrollView.h; sourceTree = "<group>"; };
+		3FBA3B4E1D66DD5A009463C2 /* QGGHitTestInnerScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGGHitTestInnerScrollView.m; sourceTree = "<group>"; };
+		3FBA3B501D66DE64009463C2 /* QGGHitTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGHitTestViewController.h; sourceTree = "<group>"; };
+		3FBA3B511D66DE64009463C2 /* QGGHitTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGGHitTestViewController.m; sourceTree = "<group>"; };
+		3FBA3B531D66E4BB009463C2 /* QGGWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGWindow.h; sourceTree = "<group>"; };
+		3FBA3B541D66E4BB009463C2 /* QGGWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGGWindow.m; sourceTree = "<group>"; };
 		3FDCDD841C3221F0002AE0AA /* UIImage+QGGRenderedColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QGGRenderedColor.h"; sourceTree = "<group>"; };
 		3FDCDD851C3221F0002AE0AA /* UIImage+QGGRenderedColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QGGRenderedColor.m"; sourceTree = "<group>"; };
 		3FDCDD871C322802002AE0AA /* QGGImagePickerViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGImagePickerViewControllerDelegate.h; sourceTree = "<group>"; };
 		3FDEE51C1C7C9B1B0051CCC3 /* QGGGradientMaskLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGGradientMaskLabel.h; sourceTree = "<group>"; };
 		3FDEE51D1C7C9B1B0051CCC3 /* QGGGradientMaskLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGGGradientMaskLabel.m; sourceTree = "<group>"; };
+		3FE840C21D6055C100633B2A /* QGGNestScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGNestScrollViewController.h; sourceTree = "<group>"; };
+		3FE840C31D6055C100633B2A /* QGGNestScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGGNestScrollViewController.m; sourceTree = "<group>"; };
+		3FE840C51D60617300633B2A /* QGGNestScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGNestScrollView.h; sourceTree = "<group>"; };
+		3FE840C61D60617300633B2A /* QGGNestScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGGNestScrollView.m; sourceTree = "<group>"; };
+		3FE840C81D607B5D00633B2A /* QGGApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGApplication.h; sourceTree = "<group>"; };
+		3FE840C91D607B5D00633B2A /* QGGApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGGApplication.m; sourceTree = "<group>"; };
+		3FE840CB1D60BCEC00633B2A /* QGGNestPageViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGGNestPageViewViewController.h; sourceTree = "<group>"; };
+		3FE840CC1D60BCEC00633B2A /* QGGNestPageViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGGNestPageViewViewController.m; sourceTree = "<group>"; };
 		3FF345C71C140EF900E9D3BF /* QGGDraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QGGDraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF345CB1C140EF900E9D3BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3FF345CD1C140EF900E9D3BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -422,6 +446,32 @@
 			path = BarHiddenTest;
 			sourceTree = "<group>";
 		};
+		3FBA3B491D66DBF6009463C2 /* HitTest */ = {
+			isa = PBXGroup;
+			children = (
+				3FBA3B4A1D66DD49009463C2 /* QGGHitTestOutterScrollView.h */,
+				3FBA3B4B1D66DD49009463C2 /* QGGHitTestOutterScrollView.m */,
+				3FBA3B4D1D66DD5A009463C2 /* QGGHitTestInnerScrollView.h */,
+				3FBA3B4E1D66DD5A009463C2 /* QGGHitTestInnerScrollView.m */,
+				3FBA3B501D66DE64009463C2 /* QGGHitTestViewController.h */,
+				3FBA3B511D66DE64009463C2 /* QGGHitTestViewController.m */,
+			);
+			path = HitTest;
+			sourceTree = "<group>";
+		};
+		3FE840BE1D6054D600633B2A /* NestScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				3FE840C21D6055C100633B2A /* QGGNestScrollViewController.h */,
+				3FE840C31D6055C100633B2A /* QGGNestScrollViewController.m */,
+				3FE840C51D60617300633B2A /* QGGNestScrollView.h */,
+				3FE840C61D60617300633B2A /* QGGNestScrollView.m */,
+				3FE840CB1D60BCEC00633B2A /* QGGNestPageViewViewController.h */,
+				3FE840CC1D60BCEC00633B2A /* QGGNestPageViewViewController.m */,
+			);
+			path = NestScrollView;
+			sourceTree = "<group>";
+		};
 		3FF345BE1C140EF900E9D3BF = {
 			isa = PBXGroup;
 			children = (
@@ -461,6 +511,10 @@
 				3FF345D81C140EF900E9D3BF /* LaunchScreen.storyboard */,
 				3FF345DB1C140EF900E9D3BF /* Info.plist */,
 				3FF345CA1C140EF900E9D3BF /* Supporting Files */,
+				3FE840C81D607B5D00633B2A /* QGGApplication.h */,
+				3FE840C91D607B5D00633B2A /* QGGApplication.m */,
+				3FBA3B531D66E4BB009463C2 /* QGGWindow.h */,
+				3FBA3B541D66E4BB009463C2 /* QGGWindow.m */,
 			);
 			path = QGGDraft;
 			sourceTree = "<group>";
@@ -494,6 +548,8 @@
 		3FF345FD1C140F2600E9D3BF /* Bussiness */ = {
 			isa = PBXGroup;
 			children = (
+				3FBA3B491D66DBF6009463C2 /* HitTest */,
+				3FE840BE1D6054D600633B2A /* NestScrollView */,
 				3F35834B1D59EAD2009C6752 /* CustAttachment */,
 				3F2AEB021D17C5A9001489D8 /* TextView */,
 				3FB971541CC9DDF600025A62 /* BarHiddenTest */,
@@ -792,6 +848,8 @@
 				3F86DC981C16B580009950A7 /* QGGTestViewController.m in Sources */,
 				3FDEE51E1C7C9B1B0051CCC3 /* QGGGradientMaskLabel.m in Sources */,
 				3F04A71E1C2D40320067A19D /* QGGImagePickerCell.m in Sources */,
+				3FE840CA1D607B5D00633B2A /* QGGApplication.m in Sources */,
+				3FBA3B4C1D66DD49009463C2 /* QGGHitTestOutterScrollView.m in Sources */,
 				3F86DC921C16A776009950A7 /* QGGMenuTableViewCell.m in Sources */,
 				3F04A7181C2D21120067A19D /* ALAssetsGroup+GroupName_zh_CN.m in Sources */,
 				3FB971571CC9DE5C00025A62 /* QGGFirsetHideBarViewController.m in Sources */,
@@ -799,8 +857,11 @@
 				3FF345D21C140EF900E9D3BF /* ViewController.m in Sources */,
 				3F6EAB3A1CBB8B650040CCF2 /* QGGTimeImitationControllerViewController.m in Sources */,
 				3FB6B31D1C7C6584007AF4B0 /* QGGAnimationsViewController.m in Sources */,
+				3FBA3B551D66E4BB009463C2 /* QGGWindow.m in Sources */,
 				3F7267061C31115800AAA6BA /* QGGImageDetailPickerViewController.m in Sources */,
 				3FDCDD861C3221F0002AE0AA /* UIImage+QGGRenderedColor.m in Sources */,
+				3FE840C71D60617300633B2A /* QGGNestScrollView.m in Sources */,
+				3FBA3B4F1D66DD5A009463C2 /* QGGHitTestInnerScrollView.m in Sources */,
 				3F7694F31CB356A100661BA8 /* QGGWaterLoadingView.m in Sources */,
 				3FFD07991CA921A500AB4F10 /* UIView+QGGDrag.m in Sources */,
 				3FB6B31A1C7C613F007AF4B0 /* QGGLoadingView.m in Sources */,
@@ -819,14 +880,17 @@
 				3F86DC8E1C1686F2009950A7 /* QGGTextField.m in Sources */,
 				3F929BF91C2BE62A004A1414 /* QGGPhotoLibTestViewController.m in Sources */,
 				3F86DC9C1C16B86B009950A7 /* QGGMaxLenTextFieldViewController.m in Sources */,
+				3FE840C41D6055C100633B2A /* QGGNestScrollViewController.m in Sources */,
 				3F929C0E1C2C0837004A1414 /* QGGImageGroupTableView.m in Sources */,
 				3F2AEB061D17C718001489D8 /* QGGTextAttachment.m in Sources */,
 				3F04A71B1C2D3E6F0067A19D /* QGGTapAnimationView.m in Sources */,
 				3FF345CF1C140EF900E9D3BF /* AppDelegate.m in Sources */,
+				3FBA3B521D66DE64009463C2 /* QGGHitTestViewController.m in Sources */,
 				3FF345CC1C140EF900E9D3BF /* main.m in Sources */,
 				3F929BFF1C2BF059004A1414 /* QGGImagePicker.m in Sources */,
 				3F7267091C31262600AAA6BA /* QGGImagePickerDetailCell.m in Sources */,
 				3F6EAB371CBB88C20040CCF2 /* TimeImitationView.m in Sources */,
+				3FE840CD1D60BCEC00633B2A /* QGGNestPageViewViewController.m in Sources */,
 				3F630D151C79ED08009913DE /* QGGAutumnKeyFrameViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

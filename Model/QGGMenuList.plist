@@ -9,6 +9,26 @@
 		<array>
 			<dict>
 				<key>title</key>
+				<string>HitTest</string>
+				<key>target</key>
+				<string>QGGHitTestViewController</string>
+				<key>instruction</key>
+				<string>ScrollView 嵌套</string>
+				<key>isNib</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>nestScrollView</string>
+				<key>target</key>
+				<string>QGGNestPageViewViewController</string>
+				<key>instruction</key>
+				<string>ScrollView 嵌套</string>
+				<key>isNib</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>title</key>
 				<string>富文本</string>
 				<key>target</key>
 				<string>QGGRichTextViewController</string>
